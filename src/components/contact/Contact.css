@@ -64,7 +64,7 @@ p {
   width: 500px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 @media (max-width: 650px) {

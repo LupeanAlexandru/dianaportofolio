@@ -26,4 +26,15 @@
     font-size: 0.9rem;
     margin-top: 0;
   }
+
+  .scroll-to-top{
+    background-color: #333;
+    border: none;
+    color: #f1c40f;
+    text-align: center;
+    cursor: pointer; 
+  }
   
+  .scroll-to-top:hover {
+    color: #f0a500; 
+  }
