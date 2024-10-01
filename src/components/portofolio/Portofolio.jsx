@@ -1,7 +1,6 @@
 import "./Portofolio.css";
 import { useState, useEffect } from "react";
 
-// Import images from multiple folders
 const coverImages = import.meta.glob("../../assets/covers/*.{jpg,png}");
 const beautyImages = import.meta.glob("../../assets/beauty/*.jpg");
 const fashionImages = import.meta.glob("../../assets/fashion/*.jpg");
@@ -9,7 +8,6 @@ const commercialImages = import.meta.glob(
   "../../assets/commercial/*.{jpg,jpeg}"
 );
 
-// Categories and their associated image sources
 const imageCategories = {
   covers: coverImages,
   beauty: beautyImages,
@@ -18,7 +16,7 @@ const imageCategories = {
 };
 
 export const Portofolio = () => {
-  const [category, setCategory] = useState("covers"); // Default to covers
+  const [category, setCategory] = useState("covers");
   const [imageList, setImageList] = useState([]);
   const [loading, setLoading] = useState(true);
   const [showImages, setShowImages] = useState(false);
@@ -31,20 +29,20 @@ export const Portofolio = () => {
           Object.keys(images).map(async (key) => {
             const module = await images[key]();
             const img = new Image();
-            img.src = module.default; // Preload the image
+            img.src = module.default;
           })
         );
       }
     };
 
-    preloadImages(); // Preload all images on mount
+    preloadImages();
   }, []);
 
   useEffect(() => {
     const loadImages = async () => {
       setLoading(true);
       setShowImages(false);
-      const selectedImages = imageCategories[category]; // Load images based on the selected category
+      const selectedImages = imageCategories[category];
       const imageArray = await Promise.all(
         Object.keys(selectedImages).map(async (key) => {
           const module = await selectedImages[key]();

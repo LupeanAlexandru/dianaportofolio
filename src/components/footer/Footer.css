@@ -1,6 +1,6 @@
 .footer {
     width: 100%;
-    background-color: #333; /* Dark grey background */
+    background-color: #333; 
     color: white;
     padding: 1rem 0;
     text-align: center;
@@ -19,7 +19,7 @@
   }
   
   .social-icons a:hover {
-    color: #f1c40f; /* Highlight color on hover */
+    color: #f1c40f; 
   }
   
   .footer-text {

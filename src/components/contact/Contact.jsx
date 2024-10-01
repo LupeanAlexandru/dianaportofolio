@@ -30,7 +30,7 @@ export const Contact = () => {
       .then(
         () => {
           alert("Message sent successfully!");
-          setFormData({ name: "", email: "", subject: "", message: "" }); // Reset form after submission
+          setFormData({ name: "", email: "", subject: "", message: "" });
         },
         () => {
           alert("Failed to send the message, please try again.");
