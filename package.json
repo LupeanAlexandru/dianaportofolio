@@ -1,7 +1,7 @@
 {
   "homepage": "https://lupeanalexandru.github.io/dianaportofolio",
   "name": "dianaportofolio",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
