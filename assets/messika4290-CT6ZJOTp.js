@@ -1,1 +1,1 @@
-const s="./assets/messika4290-Db-pwpFH.jpg";export{s as default};
+const s="/assets/messika4290-Db-pwpFH.jpg";export{s as default};
