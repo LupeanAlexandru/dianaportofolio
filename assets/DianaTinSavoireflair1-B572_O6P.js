@@ -1,1 +1,1 @@
-const a="/assets/DianaTinSavoireflair1-QmJcraZm.jpg";export{a as default};
+const a="./assets/DianaTinSavoireflair1-QmJcraZm.jpg";export{a as default};
