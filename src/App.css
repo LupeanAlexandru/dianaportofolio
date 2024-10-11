@@ -8,7 +8,8 @@
 
 body {
   padding-top: 62px;
-  background-image: url("./assets/beauty/ChanelxLaha4.jpg");
+  background-image: url("./assets/background/ChanelxLaha4.jpg");
+  /* background-image:url(/dianaportofolio/assets/ChanelxLaha4-SZYA6ymB.jpg); */
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -18,4 +19,10 @@ body {
 html {
   scroll-padding-top: 62px;
   overflow-x: hidden;
+}
+
+@supports (-webkit-overflow-scrolling: touch) {
+  body {
+    background-attachment: scroll;
+  }
 }

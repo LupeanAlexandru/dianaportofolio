@@ -42,8 +42,8 @@ export const Contact = () => {
     <section id="contact" className="contact-section">
       <h2 className="contact-title">Contact Me</h2>
 
-      <p>Email: contact@example.com</p>
-      <p>Phone: +123 456 7890</p>
+      <p className="contact-information">Email: contact@example.com</p>
+      <p className="contact-information">Phone: +123 456 7890</p>
 
       <form className="contact-form" onSubmit={handleSubmit}>
         <div className="form-field">

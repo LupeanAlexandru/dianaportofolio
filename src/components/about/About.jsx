@@ -3,10 +3,10 @@ import "./About.css";
 export const About = () => {
   return (
     <section id="about" className="about">
-      <h2>About Me</h2>
+      <h2 className="about-title">About Me</h2>
       <div className="card">
         <p>
-          As asought-after professional makeup artist, I bring wealth of
+          As a sought-after professional makeup artist, I bring wealth of
           experience and a refined touch to eveery project, whether it&apos;s
           working with hig-profile celebrities or on prestigious fashion and
           advertising campaigns. My artistry has graced the faces of renowned

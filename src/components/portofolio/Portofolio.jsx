@@ -1,5 +1,6 @@
 import "./Portofolio.css";
 import { useState, useEffect } from "react";
+import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 
 const coverImages = import.meta.glob("../../assets/covers/*.{jpg,png}");
 const beautyImages = import.meta.glob("../../assets/beauty/*.jpg");
@@ -59,11 +60,17 @@ export const Portofolio = () => {
       setTimeout(() => {
         setLoading(false);
         setTimeout(() => setShowImages(true), 100);
-      }, 3000);
+      }, 1000);
     };
 
     loadImages();
   }, [category]);
+
+  const scrollToTopPortofolio = () => {
+    document
+      .getElementById("portofolio")
+      .scrollIntoView({ behavior: "smooth" });
+  };
 
   return (
     <section id="portofolio" className="portofolio">
@@ -87,6 +94,13 @@ export const Portofolio = () => {
           ))}
         </div>
       )}
+
+      <button
+        className="scroll-to-top-portofolio"
+        onClick={scrollToTopPortofolio}
+      >
+        <ArrowUpwardIcon />
+      </button>
     </section>
   );
 };

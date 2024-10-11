@@ -1,7 +1,11 @@
 .contact-section {
-  background-image: url("https://images.unsplash.com/photo-1503236823255-94609f598e71?q=80&w=3538&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("../../assets/background/cover4.jpeg");
   background-size: cover;
   background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .contact-form {
@@ -24,11 +28,17 @@
   border: 1px solid #ccc;
   border-radius: 4px;
   width: 80%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder{
+  color: #fff;
 }
 
 .contact-form button {
   padding: 0.75rem;
-  background-color: #576cbc;
+  background-color: #333;
   color: white;
   font-size: 1rem;
   border: none;
@@ -39,7 +49,7 @@
 }
 
 .contact-form button:hover {
-  background-color: #19376d;
+  background-color: #555;
 }
 
 .contact-section p {
@@ -51,13 +61,16 @@ textarea {
   resize: none;
 }
 
-p {
-  text-align: center;
+.contact-information {
+  color: white;
 }
 
 .contact-title {
   margin-bottom: 50px;
-  color: #2b2926;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 48px;
 }
 
 .form-field {
