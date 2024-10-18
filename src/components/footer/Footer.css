@@ -4,22 +4,7 @@
     color: white;
     padding: 1rem 0;
     text-align: center;
-  }
-  
-  .social-icons {
-    display: flex;
-    justify-content: center;
-    gap: 1.5rem;
-    margin-bottom: 1rem;
-  }
-  
-  .social-icons a {
-    color: white;
-    transition: color 0.3s ease;
-  }
-  
-  .social-icons a:hover {
-    color: #f1c40f; 
+    font-family: "Futura Std", sans-serif;
   }
   
   .footer-text {

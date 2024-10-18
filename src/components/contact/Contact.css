@@ -1,5 +1,6 @@
 .contact-section {
   background-image: url("../../assets/background/cover4.jpeg");
+  /* background-image:url("/dianaportofolio/assets/cover4.jpeg"); */
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -46,6 +47,7 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
   margin-bottom: 30px;
+  font-family: "Couture", sans-serif;
 }
 
 .contact-form button:hover {
@@ -62,7 +64,8 @@ textarea {
 }
 
 .contact-information {
-  color: white;
+  color: #ffffff;
+  font-family: 'Futura Std', sans-serif;
 }
 
 .contact-title {
@@ -80,6 +83,20 @@ textarea {
   justify-content: center;
 }
 
+.instagram-icon {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.instagram-icon:hover {
+  color: #f1c40f; 
+}
+
+.contact-ways{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 @media (max-width: 650px) {
   .form-field {
     width: 80%;

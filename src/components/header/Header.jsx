@@ -65,6 +65,15 @@ export const Header = () => {
         </li>
         <li>
           <a
+            href="#services"
+            onClick={(e) => scrollToSection(e, "services")}
+            className={activeSection === "services" ? "active" : ""}
+          >
+            Services
+          </a>
+        </li>
+        <li>
+          <a
             href="#portofolio"
             onClick={(e) => scrollToSection(e, "portofolio")}
             className={activeSection === "portofolio" ? "active" : ""}

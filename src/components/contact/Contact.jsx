@@ -1,5 +1,6 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
+import InstagramIcon from "@mui/icons-material/Instagram";
 import "./Contact.css";
 
 export const Contact = () => {
@@ -42,9 +43,18 @@ export const Contact = () => {
     <section id="contact" className="contact-section">
       <h2 className="contact-title">Contact Me</h2>
 
-      <p className="contact-information">Email: contact@example.com</p>
-      <p className="contact-information">Phone: +123 456 7890</p>
-
+      <div className="contact-ways">
+        <p className="contact-information">Email: dtglammakeup@gmail.com</p>
+        <a
+          href="https://www.instagram.com/dianatinmakeup/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Instagram"
+          className="instagram-icon"
+        >
+          <InstagramIcon fontSize="large" />
+        </a>
+      </div>
       <form className="contact-form" onSubmit={handleSubmit}>
         <div className="form-field">
           <input

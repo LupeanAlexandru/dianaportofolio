@@ -75,10 +75,18 @@ export const Portofolio = () => {
   return (
     <section id="portofolio" className="portofolio">
       <div className="category-menu">
-        <button onClick={() => setCategory("covers")}>Covers</button>
-        <button onClick={() => setCategory("beauty")}>Beauty</button>
-        <button onClick={() => setCategory("fashion")}>Fashion</button>
-        <button onClick={() => setCategory("commercial")}>Commercial</button>
+        <button className="menu-item" onClick={() => setCategory("covers")}>
+          Covers
+        </button>
+        <button className="menu-item" onClick={() => setCategory("beauty")}>
+          Beauty
+        </button>
+        <button className="menu-item" onClick={() => setCategory("fashion")}>
+          Fashion
+        </button>
+        <button className="menu-item" onClick={() => setCategory("commercial")}>
+          Commercial
+        </button>
       </div>
 
       {loading && (
