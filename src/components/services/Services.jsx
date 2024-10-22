@@ -14,6 +14,8 @@ export const Services = () => {
             <li className="service-item">Fashion shows</li>
             <li className="service-item">Bridal and other special events</li>
             <li className="service-item">Individual Makeup lessons</li>
+            <li className="service-item">Music Videos</li>
+            <li className="service-item">TVC</li>
           </ul>
           <img
             src="/images/services-image.jpeg"

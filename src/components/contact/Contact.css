@@ -1,6 +1,5 @@
 .contact-section {
   background-image: url("../../assets/background/cover4.jpeg");
-  /* background-image:url("/dianaportofolio/assets/cover4.jpeg"); */
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -30,6 +29,7 @@
   border-radius: 4px;
   width: 80%;
   background-color: rgba(0, 0, 0, 0.5);
+  color: white;
 }
 
 .contact-form input::placeholder,
@@ -47,7 +47,6 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
   margin-bottom: 30px;
-  font-family: "Couture", sans-serif;
 }
 
 .contact-form button:hover {

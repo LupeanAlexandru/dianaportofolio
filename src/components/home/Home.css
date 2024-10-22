@@ -58,8 +58,8 @@ hr {
     height: calc(100vh + 62px);
   }
   .homepage-image {
-    height: 40vh;
-    width: 60vw;
+    height: 55vh;
+    width: 85vw;
     min-width: 10px;
   }
 }
