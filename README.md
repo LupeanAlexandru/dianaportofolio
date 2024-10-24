@@ -1,3 +1,5 @@
+# Portofolio website for my sister who is a makeup artist
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
