@@ -96,6 +96,17 @@ textarea {
   flex-direction: column;
   align-items: center;
 }
+
+.wapp-information{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #ffffff;
+}
+
+.wapp-icon{
+  font-size: 1.5rem;
+}
 @media (max-width: 650px) {
   .form-field {
     width: 80%;

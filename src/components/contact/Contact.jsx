@@ -1,6 +1,7 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import "./Contact.css";
 
 export const Contact = () => {
@@ -45,6 +46,9 @@ export const Contact = () => {
 
       <div className="contact-ways">
         <p className="contact-information">Email: dtglammakeup@gmail.com</p>
+        <p className="wapp-information">
+          <WhatsAppIcon className="wapp-icon" />: +971 56 826 3400
+        </p>
         <a
           href="https://www.instagram.com/dianatinmakeup/"
           target="_blank"
